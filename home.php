@@ -1,9 +1,9 @@
 <?php
     session_start();
 if (isset($_SESSION['username'])) {
-    $logedinuser = $_SESSION['username'];
+    $loginuser = $_SESSION['username'];
     
-}else $logedinuser = null; {
+}else $loginuser = null; {
     
 
 
